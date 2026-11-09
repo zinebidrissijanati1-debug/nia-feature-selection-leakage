@@ -1,0 +1,10 @@
+# Tested together on Python 3.13 (2026-11-06)
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.1.1
+scikit-learn==1.5.2
+joblib==1.6.0
+statsmodels==0.15.0
+matplotlib==3.11.2
+ucimlrepo==0.0.7
+openml==0.15.1

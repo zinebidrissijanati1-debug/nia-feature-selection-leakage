@@ -1,0 +1,15 @@
+id,dataset,source,source_id,n_instances,n_features,p_over_n,missing_values,group_structure,task_definition,role
+D01,Breast Cancer Wisconsin (Diagnostic),UCI,17,569,30,0.053,no,none,malignant vs benign (positive = malignant),low-dim
+D02,Breast Cancer Coimbra,UCI,451,116,9,0.078,no,none,patient vs healthy control (positive = patient),low-dim small-n
+D03,Heart Disease (Cleveland),UCI,45,303,13,0.043,yes,none,num>0 vs num=0 (positive = disease),low-dim
+D04,Pima Indians Diabetes,OpenML,37,768,8,0.010,hidden (zeros in glucose/BP/skin/insulin/BMI),none,diabetes vs not (positive = diabetes),low-dim
+D05,Indian Liver Patient (ILPD),UCI,225,583,10,0.017,check (A/G ratio),none,liver patient vs not (positive = patient),low-dim
+D06,Chronic Kidney Disease,UCI,336,400,24,0.060,yes (many),none,ckd vs notckd (positive = ckd),low-dim mixed types
+D07,Hepatitis,UCI,46,155,19,0.123,yes,none,die vs live (positive = die),low-dim small-n
+D08,Parkinsons (Oxford voice),UCI,174,195 recordings / 31 subjects,22,0.113 (0.71 per subject),no,YES - ~6 recordings per subject: split by subject,PD vs healthy (positive = PD),grouped
+D09,Heart Failure Clinical Records,UCI,519,299,12,0.040,no,none,death event (positive = death),low-dim
+D10,AIDS Clinical Trials Group Study 175,UCI,890,2139,23,0.011,no,none,cid event (positive = event),larger-n contrast
+D11,Leukemia (ALL/AML),OpenML,1104,72,7129,99.0,no,none,AML vs ALL (positive = AML),high-dim
+D12,Colon,OpenML,45087,62,2000,32.3,no,none,tumour vs normal (positive = tumour),high-dim
+D13,Prostate,OpenML,45099,102,12600,123.5,no,none,tumour vs normal (positive = tumour),high-dim
+D14,DLBCL,OpenML,45088,77,5469,71.0,no,none,two lymphoma classes (positive = per OpenML label coding; fix before runs),high-dim
